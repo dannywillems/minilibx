@@ -1,0 +1,9 @@
+language: C
+
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y libx11-dev xorg-dev
+
+script:
+  - make && make clean
+  - make && sudo make install
