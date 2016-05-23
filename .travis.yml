@@ -5,7 +5,7 @@ env:
 
 before_install:
   - sudo apt-get -qq update
-  - sudo apt-get install -y libx11-dev xorg-dev
+  - sudo apt-get install -y libx11-dev xorg-dev libbsd-dev
 
 script:
   - make && make clean
