@@ -2,6 +2,7 @@ Minilibx
 ========
 
 [![Build Status](https://travis-ci.org/dannywillems/minilibx.svg?branch=master)](https://travis-ci.org/dannywillems/minilibx)
+
 This is a mirror of the minilibx library.
 
 ## What is minilibx?
